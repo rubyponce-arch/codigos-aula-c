@@ -21,7 +21,7 @@ int main()
     int temCupom = 0;
     float valorDesconto = 0;
 
-    printf("Olá seja bem vindo, qual seu nome? ");
+     printf("Olá seja bem vindo, qual seu nome?");
     scanf("%s", nome);
 
     printf("Obrigado por escolher nossa loja, %s", nome);
@@ -35,8 +35,8 @@ int main()
     printf("\nPara mostrar um relatório detalhado, diga quantos dias vai precisar do carro: ");
     scanf("%i", &dias);
 
-    printf("%s, tem cupom de desconto? 1->sim, 0->não", nome);
-    scanf("%i", &temCupom);
+      printf("Você deseja usar cupom? -> 1=sim, -> não=0");
+    scanf("%i", temCupom);
 
     if (temCupom == 1) {
         printf("Digite o código: ");
