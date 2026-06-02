@@ -10,7 +10,7 @@ int main() {
     printf ("\nDigite o numero da tabuada desejada ou 0 para sair: ");
     scanf ("%i", &tabuada);
 
-} while (i <= 10) {
+} while (i <= 10); {
     res = i * tabuada;
     printf ("\n%i X %i = %i", tabuada, i, res);
     i++;
