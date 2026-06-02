@@ -21,7 +21,7 @@ void calculadora(char operacao, float num1, float num2) {
             if (num2 != 0)
                 printf("Resultado: %.2f\n", num1 / num2);
             else
-                printf("Erro: divisao por zero!\n");
+                printf("ERRO: divisao por zero!\n");
             break;
 
         default:

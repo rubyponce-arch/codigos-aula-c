@@ -7,11 +7,11 @@ void calcularArea(int figura, float medida) {
 
     if (figura == 1) { // círculo
         area = PI * medida * medida;
-        printf("Área do círculo: %.2f\n", area);
+        printf("Área do círculo! : %.2f\n", area);
     }
     else if (figura == 2) { // quadrado
         area = medida * medida;
-        printf("Área do quadrado: %.2f\n", area);
+        printf("Área do quadrado! : %.2f\n", area);
     }
     else {
         printf("Figura inválida!\n");
@@ -26,7 +26,7 @@ int main() {
 
     printf("1 - Círculo\n");
     printf("2 - Quadrado\n");
-    printf("Escolha a figura: ");
+    printf("Escolha a figura desejada: ");
     scanf("%d", &opcao);
 
     if (opcao == 1)

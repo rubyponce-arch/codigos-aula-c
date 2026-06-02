@@ -13,7 +13,7 @@ int main () {
     int tabuada = 0;
     int resultado = 0;
 
-    printf("Qual a tabuada que você quer? ");
+    printf("Qual a tabuada que você deseja? ");
     scanf("%i", &tabuada);
 
     conta(tabuada, resultado);

@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <locale.h>
 
-void calcularHorasCurso(int horasPorSemana) {
+void calcularHorasdoCurso(int horasSemana) {
     int meses = 5;
     int semanas = meses * 4;
-    int totalHoras = horasPorSemana * semanas;
+    int totalHoras = horasSemana * semanas;
 
     printf("\nTotal de horas do curso no semestre: %d horas\n", totalHoras);
 }
@@ -12,12 +12,12 @@ void calcularHorasCurso(int horasPorSemana) {
 int main() {
     setlocale(LC_ALL, "pt_BR.UTF-8");
 
-    int horasPorSemana;
+    int horasSemana;
 
     printf("Digite a quantidade de horas de aula por semana: ");
-    scanf("%d", &horasPorSemana);
+    scanf("%d", &horasSemana);
 
-    calcularHorasCurso(horasPorSemana);
+    calcularHorasdoCurso(horasSemana);
 
     return 0;
 }
